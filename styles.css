@@ -1,0 +1,221 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #1C1C1C;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 78px 54px 71px 59px;
+}
+form input {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+  padding-left: 31px;
+  line-height: 48px;
+  color: #1C1C1C;
+  font-size: 16px;
+}
+form input[type=submit] {
+  background: #0AD9C6;
+  font-weight: 600;
+  font-size: 16px;
+}
+form p {
+  text-align: left;
+  color: #7A7A7A;
+  margin: 0;
+  font-size: 13px;
+  line-height: 23px;
+}
+body {
+  width: 100%;
+  margin: 0;
+}
+body header {
+  display: flex;
+}
+body header .left-column {
+  width: 50%;
+  background: #E3F5F2;
+}
+@media screen and (max-width: 1024px) {
+  body header .left-column {
+    width: 78%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body header .left-column {
+    width: 90%;
+  }
+}
+body header .left-column .left-column-text {
+  width: 40%;
+  margin-left: 76px;
+  margin-top: 261px;
+  margin-bottom: 237px;
+}
+@media screen and (max-width: 768px) {
+  body header .left-column .left-column-text {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 600px;
+    margin-left: 15px;
+  }
+}
+body header .left-column h1 {
+  color: #000000;
+  letter-spacing: -1.27273px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 29px;
+  margin-top: 0;
+}
+body header .left-column h5 {
+  color: #999999;
+  letter-spacing: 1.08333px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+body header .left-column p {
+  color: #7A7A7A;
+  font-size: 16px;
+  line-height: 28px;
+}
+body header .right-column {
+  width: 50%;
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  body header .right-column {
+    width: 22%;
+    background-position-x: -260px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body header .right-column {
+    width: 10%;
+  }
+}
+body header form {
+  position: absolute;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 153px;
+}
+@media screen and (max-width: 1024px) {
+  body header form {
+    margin-left: 59%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body header form {
+    width: 60%;
+    top: 300px;
+    margin-left: 15px;
+    padding: 40px 22px 40px 22px;
+  }
+}
+@media screen and (max-width: 460px) {
+  body header form {
+    top: 370px;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 360px) {
+  body header form {
+    top: 440px;
+  }
+}
+body .content {
+  padding: 50px 155px;
+}
+@media screen and (max-width: 1024px) {
+  body .content {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .content {
+    padding: 20px 15px;
+  }
+}
+body .article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+body .article .article-img {
+  width: 60%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+body .article .article-img.article-img-level-cake {
+  background-image: url(img/image_1.jpg);
+}
+body .article .article-img.article-img-tips {
+  background-image: url(img/image_2.jpg);
+}
+@media screen and (max-width: 1024px) {
+  body .article .article-img {
+    width: 49%;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .article .article-img {
+    order: 1;
+    width: 100%;
+  }
+}
+body .article .article-text {
+  width: 35%;
+}
+body .article .article-text h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  body .article .article-text h2 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}
+body .article .article-text p {
+  margin: 0;
+  color: #7A7A7A;
+  font-size: 16px;
+  line-height: 28px;
+}
+@media screen and (max-width: 1024px) {
+  body .article .article-text {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .article .article-text {
+    order: 2;
+    width: 100%;
+  }
+}
